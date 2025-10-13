@@ -1,0 +1,240 @@
+======================================================================
+TWAREN ROUTE MONITORING ANALYSIS REPORT
+======================================================================
+Generated: 2025-10-13 10:03:23
+Total traces analyzed: 1312
+Time range: 2025-10-12 17:44 to 2025-10-13 08:01
+Duration: 14:16:45.951712
+
+
+======================================================================
+1. ROUTE STABILITY ANALYSIS
+======================================================================
+
+Most Unstable Routes (frequent changes):
+
+  142.251.170.26 (142.251.170.26)
+    Stability Score: 31.25%
+    Unique Routes: 6
+    Total Traces: 16
+    Route Changes: 5
+
+  140.112.2.165 (140.112.2.165)
+    Stability Score: 43.75%
+    Unique Routes: 4
+    Total Traces: 16
+    Route Changes: 3
+
+  140.112.36.185 (140.112.36.185)
+    Stability Score: 43.75%
+    Unique Routes: 4
+    Total Traces: 16
+    Route Changes: 3
+
+  140.112.2.2 (140.112.2.2)
+    Stability Score: 56.25%
+    Unique Routes: 3
+    Total Traces: 16
+    Route Changes: 2
+
+  120.101.0.37 (120.101.0.37)
+    Stability Score: 62.50%
+    Unique Routes: 2
+    Total Traces: 16
+    Route Changes: 1
+
+----------------------------------------------------------------------
+
+Most Stable Routes (consistent):
+
+  211.79.55.38 (211.79.55.38)
+    Stability Score: 100.00%
+    Unique Routes: 1
+    Core Routers: 10
+
+  211.79.56.26 (211.79.56.26)
+    Stability Score: 100.00%
+    Unique Routes: 1
+    Core Routers: 8
+
+  211.79.57.25 (211.79.57.25)
+    Stability Score: 100.00%
+    Unique Routes: 1
+    Core Routers: 5
+
+  211.79.58.26 (211.79.58.26)
+    Stability Score: 100.00%
+    Unique Routes: 1
+    Core Routers: 8
+
+  211.79.61.47 (211.79.61.47)
+    Stability Score: 100.00%
+    Unique Routes: 1
+    Core Routers: 6
+
+
+======================================================================
+2. CRITICAL INFRASTRUCTURE IDENTIFICATION
+======================================================================
+
+Total Unique Routers: 125
+Total Traces: 1312
+
+Top 20 Most Critical Routers (by criticality score):
+  Criticality = Frequency × Position Consistency
+
+
+1. 192.168.50.1
+   IP: 192.168.50.1
+   Appearances: 1312/1312 (100.0%)
+   Avg Position: 1.0
+   Criticality Score: 1.000
+
+2. csgate103.cs.ccu.edu.tw
+   IP: 140.123.103.250
+   Appearances: 1312/1312 (100.0%)
+   Avg Position: 2.0
+   Criticality Score: 1.000
+
+3. 140.123.9.249
+   IP: 140.123.9.249
+   Appearances: 1296/1312 (98.8%)
+   Avg Position: 3.0
+   Criticality Score: 0.988
+
+4. 140.123.0.246
+   IP: 140.123.0.246
+   Appearances: 1232/1312 (93.9%)
+   Avg Position: 4.0
+   Criticality Score: 0.939
+
+5. ccu-ccu-76.twaren.net
+   IP: 211.79.57.25
+   Appearances: 768/1312 (58.5%)
+   Avg Position: 5.0
+   Criticality Score: 0.585
+
+6. tn-a1.twaren.net
+   IP: 211.73.76.209
+   Appearances: 752/1312 (57.3%)
+   Avg Position: 6.0
+   Criticality Score: 0.573
+
+7. 140.130.252.251
+   IP: 140.130.252.251
+   Appearances: 464/1312 (35.4%)
+   Avg Position: 5.0
+   Criticality Score: 0.354
+
+8. 192.192.61.142
+   IP: 192.192.61.142
+   Appearances: 448/1312 (34.1%)
+   Avg Position: 6.0
+   Criticality Score: 0.341
+
+9. 192.192.61.9
+   IP: 192.192.61.9
+   Appearances: 256/1312 (19.5%)
+   Avg Position: 7.0
+   Criticality Score: 0.195
+
+10. tn-a2.twaren.net
+   IP: 211.73.76.198
+   Appearances: 256/1312 (19.5%)
+   Avg Position: 7.0
+   Criticality Score: 0.195
+
+11. hc-a2.twaren.net
+   IP: 211.73.76.141
+   Appearances: 224/1312 (17.1%)
+   Avg Position: 8.0
+   Criticality Score: 0.171
+
+12. tp-a1.twaren.net
+   IP: 211.73.76.81
+   Appearances: 208/1312 (15.9%)
+   Avg Position: 7.0
+   Criticality Score: 0.159
+
+13. 192.192.61.20
+   IP: 192.192.61.20
+   Appearances: 160/1312 (12.2%)
+   Avg Position: 7.0
+   Criticality Score: 0.122
+
+14. tp-a2.twaren.net
+   IP: 211.73.76.66
+   Appearances: 128/1312 (9.8%)
+   Avg Position: 8.0
+   Criticality Score: 0.098
+
+15. niu-a1.twaren.net
+   IP: 211.73.76.114
+   Appearances: 112/1312 (8.5%)
+   Avg Position: 9.0
+   Criticality Score: 0.085
+
+16. ncu-a1.twaren.net
+   IP: 211.73.76.150
+   Appearances: 112/1312 (8.5%)
+   Avg Position: 9.0
+   Criticality Score: 0.085
+
+17. niu_niu-a1.twaren.net
+   IP: 211.79.50.146
+   Appearances: 96/1312 (7.3%)
+   Avg Position: 10.0
+   Criticality Score: 0.073
+
+18. 192.192.61.30
+   IP: 192.192.61.30
+   Appearances: 96/1312 (7.3%)
+   Avg Position: 8.0
+   Criticality Score: 0.073
+
+19. 192.192.61.81
+   IP: 192.192.61.81
+   Appearances: 96/1312 (7.3%)
+   Avg Position: 8.0
+   Criticality Score: 0.073
+
+20. wan0069.cc.ntu.edu.tw
+   IP: 140.112.0.69
+   Appearances: 96/1312 (7.3%)
+   Avg Position: 9.0
+   Criticality Score: 0.073
+
+
+======================================================================
+3. TIME-BASED ROUTING PATTERNS
+======================================================================
+
+Route Diversity by Hour of Day:
+  (Higher diversity = more route changes)
+
+  00:00 [ 82 traces] ██████████████████████████████████████████████████ 100.00%
+  01:00 [ 89 traces] ████████████████████████████████████████████████ 97.56%
+  02:00 [ 91 traces] ████████████████████████████████████████████████ 96.34%
+  03:00 [ 87 traces] ████████████████████████████████████████████████ 96.95%
+  04:00 [ 95 traces] ██████████████████████████████████████████████ 92.07%
+  05:00 [ 92 traces] ███████████████████████████████████████████████ 94.51%
+  06:00 [ 87 traces] ████████████████████████████████████████████████ 97.56%
+  07:00 [ 95 traces] ██████████████████████████████████████████████ 92.68%
+  08:00 [ 20 traces] ██████████████████████████████████████████████████ 100.00%
+  17:00 [ 21 traces] ██████████████████████████████████████████████████ 100.00%
+  18:00 [ 94 traces] ██████████████████████████████████████████████ 92.68%
+  19:00 [ 91 traces] ███████████████████████████████████████████████ 95.12%
+  20:00 [ 92 traces] ███████████████████████████████████████████████ 95.73%
+  21:00 [ 92 traces] ██████████████████████████████████████████████ 93.90%
+  22:00 [102 traces] ███████████████████████████████████████████ 87.80%
+  23:00 [ 82 traces] ██████████████████████████████████████████████████ 100.00%
+
+  Most variable routing hours:
+    00:00 - Diversity: 100.00%
+    08:00 - Diversity: 100.00%
+    17:00 - Diversity: 100.00%
+
+  Most stable routing hours:
+    18:00 - Diversity: 92.68%
+    04:00 - Diversity: 92.07%
+    22:00 - Diversity: 87.80%

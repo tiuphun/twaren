@@ -1,0 +1,11 @@
+# TWAREN Target IPs for Network Mapping
+# Generated: 2025-10-12T16:15:30.269526
+# Source: CCU
+
+120.101.5.5	# NIU - core.niu.edu.tw
+134.208.9.114	# NDHU - twaren.ndhu.edu.tw
+140.109.13.33	# SINICA - rt.sinica.edu.tw
+211.73.76.209	# NCKU - tp-a1.twaren.net
+211.73.76.214	# NCKU - ncku-a1.twaren.net
+211.79.56.26	# NCKU - ncku-76-ncku.twaren.net
+211.79.57.25	# NCKU - ccu-ccu-76.twaren.net

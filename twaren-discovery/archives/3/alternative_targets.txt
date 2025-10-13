@@ -1,0 +1,63 @@
+# Alternative TWAREN Targets
+# Use these IPs for traceroute when direct domain traces fail
+
+
+# NTU (ntu.edu.tw)
+140.112.2.165 # webmail.ntu.edu.tw
+140.112.36.185 # ftp.ntu.edu.tw
+140.112.2.2 # ntu3.ntu.edu.tw
+
+# NDHU (ndhu.edu.tw)
+134.208.14.219 # www.ndhu.edu.tw
+142.251.170.26 # ASPMX.L.GOOGLE.COM
+172.217.78.26 # ALT1.ASPMX.L.GOOGLE.COM
+
+# NCU (ncu.edu.tw)
+140.115.17.128 # smtp.ncu.edu.tw
+140.115.154.112 # ee.ncu.edu.tw
+140.115.17.111 # pop.ncu.edu.tw
+
+# NTHU (nthu.edu.tw)
+140.114.63.93 # antispam.net.nthu.edu.tw
+140.114.63.20 # dns3.nthu.edu.tw
+140.114.67.68 # ee.nthu.edu.tw
+
+# NYCU (nycu.edu.tw)
+140.113.39.18 # lib.nycu.edu.tw
+140.113.0.45 # vpn.nycu.edu.tw
+172.217.78.26 # ALT1.ASPMX.L.GOOGLE.COM
+
+# NCHU (nchu.edu.tw)
+140.120.1.21 # pds.nchu.edu.tw
+140.120.152.8 # sqr.nchu.edu.tw
+140.120.1.2 # nchud1.nchu.edu.tw
+
+# NCNU (ncnu.edu.tw)
+163.22.2.38 # webmail.ncnu.edu.tw
+163.22.2.38 # pop.ncnu.edu.tw
+163.22.16.130 # moodle.ncnu.edu.tw
+
+# CCU (ccu.edu.tw)
+140.123.13.215 # ee.ccu.edu.tw
+140.123.135.249 # vpn.ccu.edu.tw
+140.123.13.215 # lib.ccu.edu.tw
+
+# NCKU (ncku.edu.tw)
+163.28.112.1 # name.ncku.edu.tw
+140.116.241.66 # lib.ncku.edu.tw
+140.116.49.101 # ee.ncku.edu.tw
+
+# NSYSU (nsysu.edu.tw)
+140.117.166.10 # ee.nsysu.edu.tw
+140.117.111.1 # vpn.nsysu.edu.tw
+140.117.11.50 # mail.nsysu.edu.tw
+
+# NIU (niu.edu.tw)
+120.101.0.3 # imap.niu.edu.tw
+120.101.0.37 # lib.niu.edu.tw
+203.145.203.101 # cs.niu.edu.tw
+
+# NCCU (nccu.edu.tw)
+140.119.34.23 # moodle.nccu.edu.tw
+140.119.166.199 # nccu.edu.tw
+140.119.226.191 # vpn.nccu.edu.tw

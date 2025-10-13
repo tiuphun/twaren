@@ -1,0 +1,504 @@
+╔════════════════════════════════════════════════════╗
+║  Alternative Target Discovery for TWAREN          ║
+║  Finding traceroute targets via DNS and services  ║
+╚════════════════════════════════════════════════════╝
+
+
+============================================================
+Discovering: NTU (ntu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ✗ Cannot resolve ntu.edu.tw
+
+[2] Mail Servers (MX records):
+  ✓ mgw.ntu.edu.tw -> 140.112.8.25
+
+[3] Name Servers (NS records):
+  ✓ ntu3.ntu.edu.tw -> 140.112.2.2
+  ✓ dns.ntu.edu.tw -> 140.112.254.4
+
+[4] Common Subdomains:
+  ✓ www.ntu.edu.tw -> 140.112.8.116
+  ✓ mail.ntu.edu.tw -> 140.112.9.9
+  ✓ ftp.ntu.edu.tw -> 140.112.36.185
+  ✓ webmail.ntu.edu.tw -> 140.112.2.165
+  ✓ lib.ntu.edu.tw -> 140.112.113.2
+  ✓ moodle.ntu.edu.tw -> 140.112.105.87
+  ✓ ee.ntu.edu.tw -> 140.112.18.172
+
+[5] Open Services:
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.112.2.165  # webmail.ntu.edu.tw
+  sudo traceroute -I 140.112.36.185  # ftp.ntu.edu.tw
+  sudo traceroute -I 140.112.2.2  # ntu3.ntu.edu.tw
+  sudo traceroute -I 140.112.113.2  # lib.ntu.edu.tw
+  sudo traceroute -I 140.112.105.87  # moodle.ntu.edu.tw
+
+============================================================
+Discovering: NDHU (ndhu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ✗ Cannot resolve ndhu.edu.tw
+
+[2] Mail Servers (MX records):
+  ✓ ALT1.ASPMX.L.GOOGLE.COM -> 172.217.78.26
+  ✓ ALT2.ASPMX.L.GOOGLE.COM -> 142.250.101.27
+  ✓ ASPMX.L.GOOGLE.COM -> 142.251.170.26
+  ✓ ALT3.ASPMX.L.GOOGLE.COM -> 192.178.164.27
+  ✓ ALT4.ASPMX.L.GOOGLE.COM -> 192.178.220.27
+
+[3] Name Servers (NS records):
+  ✓ dns.ndhu.edu.tw -> 163.28.160.1
+  ✓ dns2.ndhu.edu.tw -> 134.208.10.1
+
+[4] Common Subdomains:
+  ✓ www.ndhu.edu.tw -> 134.208.14.219
+  ✓ smtp.ndhu.edu.tw -> 163.28.160.21
+  ✓ ftp.ndhu.edu.tw -> 163.28.160.16
+  ✓ webmail.ndhu.edu.tw -> 134.208.14.111
+  ✓ lib.ndhu.edu.tw -> 134.208.14.219
+  ✓ ee.ndhu.edu.tw -> 134.208.14.219
+  ✓ dns2.ndhu.edu.tw -> 134.208.10.1
+
+[5] Open Services:
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 134.208.14.219  # www.ndhu.edu.tw
+  sudo traceroute -I 142.251.170.26  # ASPMX.L.GOOGLE.COM
+  sudo traceroute -I 172.217.78.26  # ALT1.ASPMX.L.GOOGLE.COM
+  sudo traceroute -I 163.28.160.21  # smtp.ndhu.edu.tw
+  sudo traceroute -I 134.208.14.111  # webmail.ndhu.edu.tw
+
+============================================================
+Discovering: NCU (ncu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ncu.edu.tw -> 140.115.0.251
+
+[2] Mail Servers (MX records):
+  ✓ mx1.cc.ncu.edu.tw -> 140.115.17.63
+  ✓ mx3.cc.ncu.edu.tw -> 140.115.17.65
+
+[3] Name Servers (NS records):
+  ✓ dns2.ncu.edu.tw -> 203.72.242.31
+  ✓ dns1.ncu.edu.tw -> 140.115.19.33
+  ✓ dns.ncu.edu.tw -> 140.115.1.29
+
+[4] Common Subdomains:
+  ✓ www.ncu.edu.tw -> 140.115.17.82
+  ✓ mail.ncu.edu.tw -> 140.115.0.177
+  ✓ smtp.ncu.edu.tw -> 140.115.17.128
+  ✓ pop.ncu.edu.tw -> 140.115.17.111
+  ✓ ftp.ncu.edu.tw -> 140.115.1.71
+  ✓ portal.ncu.edu.tw -> 140.115.182.219
+  ✓ lib.ncu.edu.tw -> 140.115.130.211
+  ✓ ee.ncu.edu.tw -> 140.115.154.112
+  ✓ dns1.ncu.edu.tw -> 140.115.19.33
+  ✓ dns2.ncu.edu.tw -> 203.72.242.31
+
+[5] Open Services:
+  Testing ncu.edu.tw (140.115.0.251)...
+    ✓ web: [80, 443]
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.115.17.128  # smtp.ncu.edu.tw
+  sudo traceroute -I 140.115.154.112  # ee.ncu.edu.tw
+  sudo traceroute -I 140.115.17.111  # pop.ncu.edu.tw
+  sudo traceroute -I 140.115.182.219  # portal.ncu.edu.tw
+  sudo traceroute -I 140.115.19.33  # dns1.ncu.edu.tw
+
+============================================================
+Discovering: NTHU (nthu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ✗ Cannot resolve nthu.edu.tw
+
+[2] Mail Servers (MX records):
+  ✓ antispam.net.nthu.edu.tw -> 140.114.63.93
+
+[3] Name Servers (NS records):
+  ✓ dns2.nthu.edu.tw -> 140.114.63.10
+  ✓ dns1.nthu.edu.tw -> 140.114.64.10
+  ✓ dns3.twaren.net -> 211.79.61.47
+  ✓ dns3.nthu.edu.tw -> 140.114.63.20
+
+[4] Common Subdomains:
+  ✓ www.nthu.edu.tw -> 140.114.69.135
+  ✓ moodle.nthu.edu.tw -> 140.114.69.134
+  ✓ elearn.nthu.edu.tw -> 140.114.69.133
+  ✓ cs.nthu.edu.tw -> 140.114.87.1
+  ✓ ee.nthu.edu.tw -> 140.114.67.68
+  ✓ dns1.nthu.edu.tw -> 140.114.64.10
+  ✓ dns2.nthu.edu.tw -> 140.114.63.10
+
+[5] Open Services:
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.114.63.93  # antispam.net.nthu.edu.tw
+  sudo traceroute -I 140.114.63.20  # dns3.nthu.edu.tw
+  sudo traceroute -I 140.114.67.68  # ee.nthu.edu.tw
+  sudo traceroute -I 140.114.69.134  # moodle.nthu.edu.tw
+  sudo traceroute -I 140.114.64.10  # dns1.nthu.edu.tw
+
+============================================================
+Discovering: NYCU (nycu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ✗ Cannot resolve nycu.edu.tw
+
+[2] Mail Servers (MX records):
+  ✓ ALT4.ASPMX.L.GOOGLE.COM -> 192.178.220.27
+  ✓ ALT2.ASPMX.L.GOOGLE.COM -> 142.250.101.27
+  ✓ ASPMX.L.GOOGLE.COM -> 142.251.170.26
+  ✓ ALT1.ASPMX.L.GOOGLE.COM -> 172.217.78.26
+  ✓ ALT3.ASPMX.L.GOOGLE.COM -> 192.178.164.27
+
+[3] Name Servers (NS records):
+  ✓ ns2.nycu.edu.tw -> 140.113.250.136
+  ✓ ns1.nycu.edu.tw -> 140.113.6.1
+
+[4] Common Subdomains:
+  ✓ www.nycu.edu.tw -> 140.113.42.195
+  ✓ portal.nycu.edu.tw -> 140.113.41.157
+  ✓ lib.nycu.edu.tw -> 140.113.39.18
+  ✓ vpn.nycu.edu.tw -> 140.113.0.45
+  ✓ cs.nycu.edu.tw -> 140.113.235.48
+  ✓ it.nycu.edu.tw -> 140.113.42.195
+  ✓ dns1.nycu.edu.tw -> 140.113.250.137
+  ✓ dns2.nycu.edu.tw -> 140.113.250.138
+
+[5] Open Services:
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.113.39.18  # lib.nycu.edu.tw
+  sudo traceroute -I 140.113.0.45  # vpn.nycu.edu.tw
+  sudo traceroute -I 172.217.78.26  # ALT1.ASPMX.L.GOOGLE.COM
+  sudo traceroute -I 142.251.170.26  # ASPMX.L.GOOGLE.COM
+  sudo traceroute -I 140.113.42.195  # it.nycu.edu.tw
+
+============================================================
+Discovering: NCHU (nchu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  nchu.edu.tw -> 140.120.152.122
+
+[2] Mail Servers (MX records):
+  ✓ sqr2.nchu.edu.tw -> 140.120.152.9
+  ✓ sqr.nchu.edu.tw -> 140.120.152.8
+
+[3] Name Servers (NS records):
+  ✓ nchud1.nchu.edu.tw -> 140.120.1.2
+  ✓ pds.nchu.edu.tw -> 140.120.1.21
+
+[4] Common Subdomains:
+  ✓ www.nchu.edu.tw -> 140.120.1.20
+  ✓ mail.nchu.edu.tw -> 140.120.152.123
+  ✓ smtp.nchu.edu.tw -> 140.120.152.100
+  ✓ webmail.nchu.edu.tw -> 140.120.152.23
+  ✓ portal.nchu.edu.tw -> 140.120.3.160
+
+[5] Open Services:
+  Testing nchu.edu.tw (140.120.152.122)...
+    ✓ web: [80, 443]
+    ✓ mail: [465, 993, 995]
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.120.1.21  # pds.nchu.edu.tw
+  sudo traceroute -I 140.120.152.8  # sqr.nchu.edu.tw
+  sudo traceroute -I 140.120.1.2  # nchud1.nchu.edu.tw
+  sudo traceroute -I 140.120.152.23  # webmail.nchu.edu.tw
+  sudo traceroute -I 140.120.1.20  # www.nchu.edu.tw
+
+============================================================
+Discovering: NCNU (ncnu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ✗ Cannot resolve ncnu.edu.tw
+
+[2] Mail Servers (MX records):
+  ✓ catcher2.ncnu.edu.tw -> 163.22.2.35
+  ✓ catcher.ncnu.edu.tw -> 163.22.2.34
+
+[3] Name Servers (NS records):
+  ✓ taurus.ncnu.edu.tw -> 163.22.2.2
+  ✓ academic.ncnu.edu.tw -> 163.22.2.1
+  ✓ dns3.twaren.net -> 211.79.61.47
+
+[4] Common Subdomains:
+  ✓ www.ncnu.edu.tw -> 163.22.12.5
+  ✓ smtp.ncnu.edu.tw -> 163.22.2.38
+  ✓ pop.ncnu.edu.tw -> 163.22.2.38
+  ✓ imap.ncnu.edu.tw -> 163.22.2.38
+  ✓ ftp.ncnu.edu.tw -> 140.110.96.68
+  ✓ webmail.ncnu.edu.tw -> 163.22.2.38
+  ✓ lib.ncnu.edu.tw -> 163.22.7.198
+  ✓ moodle.ncnu.edu.tw -> 163.22.16.130
+  ✓ elearn.ncnu.edu.tw -> 163.22.16.130
+  ✓ ee.ncnu.edu.tw -> 163.22.12.5
+
+[5] Open Services:
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 163.22.2.38  # webmail.ncnu.edu.tw
+  sudo traceroute -I 163.22.2.38  # pop.ncnu.edu.tw
+  sudo traceroute -I 163.22.16.130  # moodle.ncnu.edu.tw
+  sudo traceroute -I 163.22.2.1  # academic.ncnu.edu.tw
+  sudo traceroute -I 163.22.2.38  # imap.ncnu.edu.tw
+
+============================================================
+Discovering: CCU (ccu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ccu.edu.tw -> 140.123.1.2
+
+[2] Mail Servers (MX records):
+  ✓ mg002024.ccu.edu.tw -> 140.123.2.24
+  ✓ mg002023.ccu.edu.tw -> 140.123.2.23
+
+[3] Name Servers (NS records):
+  ✓ suncc.ccu.edu.tw -> 140.123.1.2
+  ✓ dns2.ccu.edu.tw -> 140.123.254.17
+
+[4] Common Subdomains:
+  ✓ www.ccu.edu.tw -> 140.123.13.215
+  ✓ mail.ccu.edu.tw -> 140.123.2.25
+  ✓ ftp.ccu.edu.tw -> 140.123.5.151
+  ✓ webmail.ccu.edu.tw -> 140.123.2.25
+  ✓ portal.ccu.edu.tw -> 140.123.26.100
+  ✓ lib.ccu.edu.tw -> 140.123.13.215
+  ✓ vpn.ccu.edu.tw -> 140.123.135.249
+  ✓ elearn.ccu.edu.tw -> 140.123.40.64
+  ✓ cs.ccu.edu.tw -> 140.123.13.215
+  ✓ ee.ccu.edu.tw -> 140.123.13.215
+
+[5] Open Services:
+  Testing ccu.edu.tw (140.123.1.2)...
+    ✓ dns: [53]
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.123.13.215  # ee.ccu.edu.tw
+  sudo traceroute -I 140.123.135.249  # vpn.ccu.edu.tw
+  sudo traceroute -I 140.123.13.215  # lib.ccu.edu.tw
+  sudo traceroute -I 140.123.2.25  # mail.ccu.edu.tw
+  sudo traceroute -I 140.123.2.25  # webmail.ccu.edu.tw
+
+============================================================
+Discovering: NCKU (ncku.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ncku.edu.tw -> 140.116.229.1
+
+[2] Mail Servers (MX records):
+  ✓ mail.ncku.edu.tw -> 140.116.229.1
+
+[3] Name Servers (NS records):
+  ✓ name.ncku.edu.tw -> 163.28.112.1
+  ✓ apple.ncku.edu.tw -> 163.28.113.1
+
+[4] Common Subdomains:
+  ✓ www.ncku.edu.tw -> 140.116.248.21
+  ✓ mail.ncku.edu.tw -> 140.116.229.1
+  ✓ webmail.ncku.edu.tw -> 140.116.165.190
+  ✓ lib.ncku.edu.tw -> 140.116.241.66
+  ✓ moodle.ncku.edu.tw -> 140.116.249.68
+  ✓ elearn.ncku.edu.tw -> 140.116.6.205
+  ✓ cs.ncku.edu.tw -> 140.116.44.179
+  ✓ ee.ncku.edu.tw -> 140.116.49.101
+
+[5] Open Services:
+  Testing ncku.edu.tw (140.116.229.1)...
+    ✓ web: [80, 443]
+    ✓ mail: [25, 587, 465, 993, 995]
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 163.28.112.1  # name.ncku.edu.tw
+  sudo traceroute -I 140.116.241.66  # lib.ncku.edu.tw
+  sudo traceroute -I 140.116.49.101  # ee.ncku.edu.tw
+  sudo traceroute -I 140.116.248.21  # www.ncku.edu.tw
+  sudo traceroute -I 140.116.229.1  # mail.ncku.edu.tw
+
+============================================================
+Discovering: NSYSU (nsysu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  ✗ Cannot resolve nsysu.edu.tw
+
+[2] Mail Servers (MX records):
+  ✓ spamgw.nsysu.edu.tw -> 140.117.11.245
+
+[3] Name Servers (NS records):
+  ✓ dns2.nsysu.edu.tw -> 140.117.11.11
+  ✓ dns.nsysu.edu.tw -> 140.117.11.1
+
+[4] Common Subdomains:
+  ✓ www.nsysu.edu.tw -> 140.117.13.241
+  ✓ mail.nsysu.edu.tw -> 140.117.11.50
+  ✓ vpn.nsysu.edu.tw -> 140.117.111.1
+  ✓ elearn.nsysu.edu.tw -> 140.117.11.26
+  ✓ ee.nsysu.edu.tw -> 140.117.166.10
+  ✓ dns2.nsysu.edu.tw -> 140.117.11.11
+
+[5] Open Services:
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.117.166.10  # ee.nsysu.edu.tw
+  sudo traceroute -I 140.117.111.1  # vpn.nsysu.edu.tw
+  sudo traceroute -I 140.117.11.50  # mail.nsysu.edu.tw
+  sudo traceroute -I 140.117.11.1  # dns.nsysu.edu.tw
+  sudo traceroute -I 140.117.13.241  # www.nsysu.edu.tw
+
+============================================================
+Discovering: NIU (niu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  niu.edu.tw -> 120.101.0.3
+
+[2] Mail Servers (MX records):
+  ✓ nopam.niu.edu.tw -> 120.101.0.20
+  ✓ mail.niu.edu.tw -> 120.101.0.3
+
+[3] Name Servers (NS records):
+  ✓ ns1.niu.edu.tw -> 120.101.0.9
+  ✓ ns2.niu.edu.tw -> 120.101.0.10
+
+[4] Common Subdomains:
+  ✓ www.niu.edu.tw -> 120.101.0.134
+  ✓ mail.niu.edu.tw -> 120.101.0.3
+  ✓ smtp.niu.edu.tw -> 120.101.0.3
+  ✓ imap.niu.edu.tw -> 120.101.0.3
+  ✓ webmail.niu.edu.tw -> 120.101.0.3
+  ✓ lib.niu.edu.tw -> 120.101.0.37
+  ✓ cs.niu.edu.tw -> 203.145.203.101
+  ✓ ee.niu.edu.tw -> 120.101.0.134
+
+[5] Open Services:
+  Testing niu.edu.tw (120.101.0.3)...
+    ✓ web: [80, 443]
+    ✓ mail: [465, 993, 995]
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 120.101.0.3  # imap.niu.edu.tw
+  sudo traceroute -I 120.101.0.37  # lib.niu.edu.tw
+  sudo traceroute -I 203.145.203.101  # cs.niu.edu.tw
+  sudo traceroute -I 120.101.0.134  # ee.niu.edu.tw
+  sudo traceroute -I 120.101.0.20  # nopam.niu.edu.tw
+
+============================================================
+Discovering: NCCU (nccu.edu.tw)
+============================================================
+
+[1] Direct DNS Resolution:
+  nccu.edu.tw -> 140.119.166.199
+
+[2] Mail Servers (MX records):
+  ✓ mg.nccu.edu.tw -> 140.119.166.166
+
+[3] Name Servers (NS records):
+  ✓ dns2.nccu.edu.tw -> 140.119.252.12
+  ✓ sun2cc.nccu.edu.tw -> 140.119.1.110
+
+[4] Common Subdomains:
+  ✓ www.nccu.edu.tw -> 140.119.168.10
+  ✓ pop.nccu.edu.tw -> 140.119.186.75
+  ✓ ftp.nccu.edu.tw -> 140.119.216.47
+  ✓ vpn.nccu.edu.tw -> 140.119.226.191
+  ✓ moodle.nccu.edu.tw -> 140.119.34.23
+  ✓ elearn.nccu.edu.tw -> 140.119.34.235
+  ✓ ee.nccu.edu.tw -> 140.119.185.55
+  ✓ dns2.nccu.edu.tw -> 140.119.252.12
+
+[5] Open Services:
+  Testing nccu.edu.tw (140.119.166.199)...
+    ✓ web: [80, 443]
+    ✓ mail: [25, 465, 993, 995]
+
+[6] Suggested Traceroute Commands:
+  sudo traceroute -I 140.119.34.23  # moodle.nccu.edu.tw
+  sudo traceroute -I 140.119.166.199  # nccu.edu.tw
+  sudo traceroute -I 140.119.226.191  # vpn.nccu.edu.tw
+  sudo traceroute -I 140.119.166.166  # mg.nccu.edu.tw
+  sudo traceroute -I 140.119.1.110  # sun2cc.nccu.edu.tw
+
+============================================================
+SUMMARY: All Discovered Targets
+============================================================
+
+
+NTU:
+  140.112.2.165 # webmail.ntu.edu.tw
+  140.112.36.185 # ftp.ntu.edu.tw
+  140.112.2.2 # ntu3.ntu.edu.tw
+
+NDHU:
+  134.208.14.219 # www.ndhu.edu.tw
+  142.251.170.26 # ASPMX.L.GOOGLE.COM
+  172.217.78.26 # ALT1.ASPMX.L.GOOGLE.COM
+
+NCU:
+  140.115.17.128 # smtp.ncu.edu.tw
+  140.115.154.112 # ee.ncu.edu.tw
+  140.115.17.111 # pop.ncu.edu.tw
+
+NTHU:
+  140.114.63.93 # antispam.net.nthu.edu.tw
+  140.114.63.20 # dns3.nthu.edu.tw
+  140.114.67.68 # ee.nthu.edu.tw
+
+NYCU:
+  140.113.39.18 # lib.nycu.edu.tw
+  140.113.0.45 # vpn.nycu.edu.tw
+  172.217.78.26 # ALT1.ASPMX.L.GOOGLE.COM
+
+NCHU:
+  140.120.1.21 # pds.nchu.edu.tw
+  140.120.152.8 # sqr.nchu.edu.tw
+  140.120.1.2 # nchud1.nchu.edu.tw
+
+NCNU:
+  163.22.2.38 # webmail.ncnu.edu.tw
+  163.22.2.38 # pop.ncnu.edu.tw
+  163.22.16.130 # moodle.ncnu.edu.tw
+
+CCU:
+  140.123.13.215 # ee.ccu.edu.tw
+  140.123.135.249 # vpn.ccu.edu.tw
+  140.123.13.215 # lib.ccu.edu.tw
+
+NCKU:
+  163.28.112.1 # name.ncku.edu.tw
+  140.116.241.66 # lib.ncku.edu.tw
+  140.116.49.101 # ee.ncku.edu.tw
+
+NSYSU:
+  140.117.166.10 # ee.nsysu.edu.tw
+  140.117.111.1 # vpn.nsysu.edu.tw
+  140.117.11.50 # mail.nsysu.edu.tw
+
+NIU:
+  120.101.0.3 # imap.niu.edu.tw
+  120.101.0.37 # lib.niu.edu.tw
+  203.145.203.101 # cs.niu.edu.tw
+
+NCCU:
+  140.119.34.23 # moodle.nccu.edu.tw
+  140.119.166.199 # nccu.edu.tw
+  140.119.226.191 # vpn.nccu.edu.tw
+
+✓ Results saved to 'alternative_targets.txt'
+
+Next steps:
+  1. Review alternative_targets.txt
+  2. Run traceroutes to these IPs: sudo traceroute -I <IP>
+  3. Look for *.twaren.net routers in the path

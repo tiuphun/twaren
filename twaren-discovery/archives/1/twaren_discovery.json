@@ -1,0 +1,340 @@
+{
+  "timestamp": "2025-10-12T16:13:41.751403",
+  "source": "CCU",
+  "dns_lookups": {
+    "NTU": {
+      "www.ntu.edu.tw": "140.112.8.116",
+      "www.ntu.edu.tw_reverse": "www.ntu.edu.tw"
+    },
+    "NDHU": {
+      "twaren.ndhu.edu.tw": "134.208.9.114",
+      "www.ndhu.edu.tw": "134.208.14.219",
+      "www.ndhu.edu.tw_reverse": "134-208-14-219.ndhu.edu.tw"
+    },
+    "NCU": {
+      "ncu.edu.tw": "140.115.0.251",
+      "ncu.edu.tw_reverse": "140-115-0-251.cc.ncu.edu.tw",
+      "www.ncu.edu.tw": "140.115.17.82"
+    },
+    "NTHU": {
+      "www.nthu.edu.tw": "140.114.69.135",
+      "www.nthu.edu.tw_reverse": "www.nthu.edu.tw",
+      "mx.nthu.edu.tw": "140.114.62.213",
+      "mx.nthu.edu.tw_reverse": "mx-3.nthu.edu.tw"
+    },
+    "NYCU": {
+      "www.nycu.edu.tw": "140.113.42.195"
+    },
+    "NCHU": {
+      "nchu.edu.tw": "140.120.152.122",
+      "nchu.edu.tw_reverse": "dragon.nchu.edu.tw",
+      "www.nchu.edu.tw": "140.120.1.20",
+      "www.nchu.edu.tw_reverse": "www.nchu.edu.tw"
+    },
+    "NCNU": {
+      "www.ncnu.edu.tw": "163.22.12.5",
+      "www.ncnu.edu.tw_reverse": "ip005.puli12.ncnu.edu.tw"
+    },
+    "CCU": {
+      "ccu.edu.tw": "140.123.1.2",
+      "ccu.edu.tw_reverse": "suncc.ccu.edu.tw",
+      "www.ccu.edu.tw": "140.123.13.215"
+    },
+    "NCKU": {
+      "ncku.edu.tw": "140.116.229.1",
+      "ncku.edu.tw_reverse": "ncku.edu.tw",
+      "www.ncku.edu.tw": "140.116.248.21"
+    },
+    "NSYSU": {
+      "www.nsysu.edu.tw": "140.117.13.241",
+      "www.nsysu.edu.tw_reverse": "www.nsysu.edu.tw"
+    },
+    "NIU": {
+      "niu.edu.tw": "120.101.0.3",
+      "niu.edu.tw_reverse": "ms.niu.edu.tw",
+      "core.niu.edu.tw": "120.101.5.5",
+      "www.niu.edu.tw": "120.101.0.134",
+      "www.niu.edu.tw_reverse": "web.niu.edu.tw"
+    },
+    "NCCU": {
+      "nccu.edu.tw": "140.119.166.199",
+      "nccu.edu.tw_reverse": "nccu.edu.tw",
+      "www.nccu.edu.tw": "140.119.168.10"
+    },
+    "SINICA": {
+      "rt.sinica.edu.tw": "140.109.13.33",
+      "www.sinica.edu.tw": "203.66.35.5",
+      "www.sinica.edu.tw_reverse": "203-66-35-5.hinet-ip.hinet.net"
+    },
+    "NCHC": {
+      "www.nchc.org.tw": "211.73.79.37"
+    }
+  },
+  "traceroutes": {
+    "NTU": {
+      "target": "ntu.edu.tw",
+      "hops": []
+    },
+    "NDHU": {
+      "target": "ndhu.edu.tw",
+      "hops": []
+    },
+    "NCU": {
+      "target": "ncu.edu.tw",
+      "hops": []
+    },
+    "NTHU": {
+      "target": "nthu.edu.tw",
+      "hops": []
+    },
+    "NYCU": {
+      "target": "nycu.edu.tw",
+      "hops": []
+    },
+    "NCHU": {
+      "target": "nchu.edu.tw",
+      "hops": []
+    },
+    "NCNU": {
+      "target": "ncnu.edu.tw",
+      "hops": []
+    },
+    "CCU": {
+      "target": "ccu.edu.tw",
+      "hops": [
+        {
+          "hop": 2,
+          "hostname": "csgate103.cs.ccu.edu.tw",
+          "ip": "140.123.103.250",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 3,
+          "hostname": "140.123.9.249",
+          "ip": "140.123.9.249",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 4,
+          "hostname": "140.123.0.246",
+          "ip": "140.123.0.246",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 5,
+          "hostname": "140.130.252.251",
+          "ip": "140.130.252.251",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 6,
+          "hostname": "suncc.ccu.edu.tw",
+          "ip": "140.123.1.2",
+          "is_potential_gateway": false
+        }
+      ]
+    },
+    "NCKU": {
+      "target": "ncku.edu.tw",
+      "hops": [
+        {
+          "hop": 2,
+          "hostname": "csgate103.cs.ccu.edu.tw",
+          "ip": "140.123.103.250",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 3,
+          "hostname": "140.123.9.249",
+          "ip": "140.123.9.249",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 4,
+          "hostname": "140.123.0.246",
+          "ip": "140.123.0.246",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 5,
+          "hostname": "ccu-ccu-76.twaren.net",
+          "ip": "211.79.57.25",
+          "is_potential_gateway": true
+        },
+        {
+          "hop": 6,
+          "hostname": "tp-a1.twaren.net",
+          "ip": "211.73.76.209",
+          "is_potential_gateway": true
+        },
+        {
+          "hop": 7,
+          "hostname": "ncku-a1.twaren.net",
+          "ip": "211.73.76.214",
+          "is_potential_gateway": true
+        },
+        {
+          "hop": 8,
+          "hostname": "ncku-76-ncku.twaren.net",
+          "ip": "211.79.56.26",
+          "is_potential_gateway": true
+        },
+        {
+          "hop": 9,
+          "hostname": "ncku.edu.tw",
+          "ip": "140.116.229.1",
+          "is_potential_gateway": false
+        }
+      ]
+    },
+    "NSYSU": {
+      "target": "nsysu.edu.tw",
+      "hops": []
+    },
+    "NIU": {
+      "target": "niu.edu.tw",
+      "hops": []
+    },
+    "NCCU": {
+      "target": "nccu.edu.tw",
+      "hops": [
+        {
+          "hop": 2,
+          "hostname": "csgate103.cs.ccu.edu.tw",
+          "ip": "140.123.103.250",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 3,
+          "hostname": "140.123.9.249",
+          "ip": "140.123.9.249",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 4,
+          "hostname": "140.123.0.246",
+          "ip": "140.123.0.246",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 5,
+          "hostname": "140.130.252.251",
+          "ip": "140.130.252.251",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 6,
+          "hostname": "192.192.61.142",
+          "ip": "192.192.61.142",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 7,
+          "hostname": "192.192.61.9",
+          "ip": "192.192.61.9",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 8,
+          "hostname": "192.192.61.22",
+          "ip": "192.192.61.22",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 9,
+          "hostname": "192.192.61.89",
+          "ip": "192.192.61.89",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 10,
+          "hostname": "140.119.243.6",
+          "ip": "140.119.243.6",
+          "is_potential_gateway": false
+        },
+        {
+          "hop": 11,
+          "hostname": "nccu.edu.tw",
+          "ip": "140.119.166.199",
+          "is_potential_gateway": false
+        }
+      ]
+    },
+    "SINICA": {
+      "target": "sinica.edu.tw",
+      "hops": []
+    },
+    "NCHC": {
+      "target": "nchc.org.tw",
+      "hops": []
+    }
+  },
+  "discovered_ips": {
+    "total_unique_ips": 37,
+    "ips": [
+      "120.101.0.134",
+      "120.101.0.3",
+      "120.101.5.5",
+      "134.208.14.219",
+      "134.208.9.114",
+      "140.109.13.33",
+      "140.112.8.116",
+      "140.113.42.195",
+      "140.114.62.213",
+      "140.114.69.135",
+      "140.115.0.251",
+      "140.115.17.82",
+      "140.116.229.1",
+      "140.116.248.21",
+      "140.117.13.241",
+      "140.119.166.199",
+      "140.119.168.10",
+      "140.119.243.6",
+      "140.120.1.20",
+      "140.120.152.122",
+      "140.123.0.246",
+      "140.123.1.2",
+      "140.123.103.250",
+      "140.123.13.215",
+      "140.123.9.249",
+      "140.130.252.251",
+      "163.22.12.5",
+      "192.192.61.142",
+      "192.192.61.22",
+      "192.192.61.89",
+      "192.192.61.9",
+      "203.66.35.5",
+      "211.73.76.209",
+      "211.73.76.214",
+      "211.73.79.37",
+      "211.79.56.26",
+      "211.79.57.25"
+    ]
+  },
+  "potential_gateways": [
+    {
+      "node": "NCKU",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "ip": "211.79.57.25",
+      "hop_number": 5
+    },
+    {
+      "node": "NCKU",
+      "hostname": "tp-a1.twaren.net",
+      "ip": "211.73.76.209",
+      "hop_number": 6
+    },
+    {
+      "node": "NCKU",
+      "hostname": "ncku-a1.twaren.net",
+      "ip": "211.73.76.214",
+      "hop_number": 7
+    },
+    {
+      "node": "NCKU",
+      "hostname": "ncku-76-ncku.twaren.net",
+      "ip": "211.79.56.26",
+      "hop_number": 8
+    }
+  ]
+}

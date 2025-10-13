@@ -1,0 +1,63 @@
+# Alternative TWAREN Targets
+# Use these IPs for traceroute when direct domain traces fail
+
+
+# NTU (ntu.edu.tw)
+140.112.36.185 # ftp.ntu.edu.tw
+140.112.8.116 # www.ntu.edu.tw
+140.112.2.165 # webmail.ntu.edu.tw
+
+# NDHU (ndhu.edu.tw)
+134.208.14.219 # www.ndhu.edu.tw
+134.208.14.219 # ee.ndhu.edu.tw
+134.208.14.111 # webmail.ndhu.edu.tw
+
+# NCU (ncu.edu.tw)
+140.115.154.112 # ee.ncu.edu.tw
+140.115.1.29 # dns.ncu.edu.tw
+140.115.130.211 # lib.ncu.edu.tw
+
+# NTHU (nthu.edu.tw)
+211.79.61.47 # dns3.twaren.net
+140.114.69.134 # moodle.nthu.edu.tw
+140.114.63.20 # dns3.nthu.edu.tw
+
+# NYCU (nycu.edu.tw)
+140.113.250.136 # ns2.nycu.edu.tw
+140.113.41.157 # portal.nycu.edu.tw
+140.113.39.18 # lib.nycu.edu.tw
+
+# NCHU (nchu.edu.tw)
+140.120.3.160 # portal.nchu.edu.tw
+140.120.152.9 # sqr2.nchu.edu.tw
+140.120.1.20 # www.nchu.edu.tw
+
+# NCNU (ncnu.edu.tw)
+211.79.61.47 # dns3.twaren.net
+163.22.2.38 # imap.ncnu.edu.tw
+163.22.2.2 # taurus.ncnu.edu.tw
+
+# CCU (ccu.edu.tw)
+140.123.13.215 # lib.ccu.edu.tw
+140.123.2.25 # webmail.ccu.edu.tw
+140.123.254.17 # dns2.ccu.edu.tw
+
+# NCKU (ncku.edu.tw)
+163.28.113.1 # apple.ncku.edu.tw
+163.28.112.1 # name.ncku.edu.tw
+140.116.249.68 # moodle.ncku.edu.tw
+
+# NSYSU (nsysu.edu.tw)
+140.117.11.26 # elearn.nsysu.edu.tw
+140.117.11.50 # mail.nsysu.edu.tw
+140.117.111.1 # vpn.nsysu.edu.tw
+
+# NIU (niu.edu.tw)
+120.101.0.3 # mail.niu.edu.tw
+120.101.0.37 # lib.niu.edu.tw
+120.101.0.9 # ns1.niu.edu.tw
+
+# NCCU (nccu.edu.tw)
+140.119.168.10 # www.nccu.edu.tw
+140.119.216.47 # ftp.nccu.edu.tw
+140.119.34.235 # elearn.nccu.edu.tw

@@ -1,0 +1,235 @@
+
+╔════════════════════════════════════════╗
+║  TWAREN Network Discovery Toolkit     ║
+║  Source: National Chung Cheng Univ.   ║
+╚════════════════════════════════════════╝
+
+=== Phase 1: DNS Discovery ===
+
+Discovering NTU...
+  www.ntu.edu.tw -> 140.112.8.116
+Discovering NDHU...
+  ✓ Found: twaren.ndhu.edu.tw -> 134.208.9.114
+  www.ndhu.edu.tw -> 134.208.14.219
+  ✓ Found: twaren.ndhu.edu.tw -> 134.208.9.114
+Discovering NCU...
+  ncu.edu.tw -> 140.115.0.251
+  www.ncu.edu.tw -> 140.115.17.82
+Discovering NTHU...
+  www.nthu.edu.tw -> 140.114.69.135
+  mx.nthu.edu.tw -> 140.114.62.214
+Discovering NYCU...
+  www.nycu.edu.tw -> 140.113.42.195
+Discovering NCHU...
+  nchu.edu.tw -> 140.120.152.122
+  www.nchu.edu.tw -> 140.120.1.20
+Discovering NCNU...
+  www.ncnu.edu.tw -> 163.22.12.5
+Discovering CCU...
+  ccu.edu.tw -> 140.123.1.2
+  www.ccu.edu.tw -> 140.123.13.215
+Discovering NCKU...
+  ncku.edu.tw -> 140.116.229.1
+  www.ncku.edu.tw -> 140.116.248.21
+Discovering NSYSU...
+  www.nsysu.edu.tw -> 140.117.13.241
+Discovering NIU...
+  niu.edu.tw -> 120.101.0.3
+  ✓ Found: core.niu.edu.tw -> 120.101.5.5
+  www.niu.edu.tw -> 120.101.0.134
+  ✓ Found: core.niu.edu.tw -> 120.101.5.5
+Discovering NCCU...
+  nccu.edu.tw -> 140.119.166.199
+  www.nccu.edu.tw -> 140.119.168.10
+Discovering SINICA...
+  ✓ Found: rt.sinica.edu.tw -> 140.109.13.33
+  www.sinica.edu.tw -> 203.66.32.9
+  ✓ Found: rt.sinica.edu.tw -> 140.109.13.33
+Discovering NCHC...
+  www.nchc.org.tw -> 211.73.79.37
+
+=== Phase 2: Traceroute Discovery ===
+
+
+Tracing routes to NTU...
+  Attempting: 140.112.8.116
+  ⚠ Traceroute to 140.112.8.116 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [UNIVERSITY_GATEWAY] wan0069.cc.ntu.edu.tw (140.112.0.69)
+    🎯 [UNIVERSITY_GATEWAY] core_wan_0201.cc.ntu.edu.tw (140.112.0.201)
+    ✓ Captured 11 hops (including partial trace)
+    ✓ Success: 11 hops discovered
+
+Tracing routes to NDHU...
+  Attempting: 134.208.9.114
+  ⚠ Traceroute to 134.208.9.114 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.81)
+    🎯 [TWAREN_CORE] ndhu-a1.twaren.net (211.73.76.90)
+    ✓ Captured 8 hops (including partial trace)
+    ✓ Success: 8 hops discovered
+
+Tracing routes to NCU...
+  Attempting: 140.115.0.251
+  ⚠ Traceroute to 140.115.0.251 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] tn-a2.twaren.net (211.73.76.198)
+    🎯 [TWAREN_CORE] hc-a2.twaren.net (211.73.76.141)
+    🎯 [TWAREN_CORE] ncu-a1.twaren.net (211.73.76.150)
+    🎯 [TWAREN_CORE] ncu-76-ncu.twaren.net (211.79.51.26)
+    ✓ Captured 11 hops (including partial trace)
+    ✓ Success: 11 hops discovered
+
+Tracing routes to NTHU...
+  Attempting: 140.114.69.135
+  ⚠ Traceroute to 140.114.69.135 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [UNIVERSITY_INTERNAL] c7609c-c6509.nthu.edu.tw (140.114.1.69)
+    ✓ Captured 11 hops (including partial trace)
+    ✓ Success: 11 hops discovered
+
+Tracing routes to NYCU...
+  Attempting: 140.113.42.195
+  ⚠ Traceroute to 140.113.42.195 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] tn-a2.twaren.net (211.73.76.198)
+    🎯 [TWAREN_CORE] hc-a2.twaren.net (211.73.76.141)
+    🎯 [TWAREN_CORE] nctu-a1.twaren.net (211.73.76.154)
+    🎯 [TWAREN_CORE] nctu-76-nctu.twaren.net (211.79.53.30)
+    ✓ Captured 11 hops (including partial trace)
+    ✓ Success: 11 hops discovered
+
+Tracing routes to NCHU...
+  Attempting: 140.120.152.122
+  ⚠ Traceroute to 140.120.152.122 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    ✓ Captured 9 hops (including partial trace)
+    ✓ Success: 9 hops discovered
+
+Tracing routes to NCNU...
+  Attempting: 163.22.12.5
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] tn-a2.twaren.net (211.73.76.198)
+    🎯 [TWAREN_CORE] ncnu-a1.twaren.net (211.73.76.194)
+    🎯 [TWAREN_CORE] ncnu-76-ncnu-2.twaren.net (211.79.55.38)
+    ✓ Captured 12 hops (including partial trace)
+    ✓ Success: 12 hops discovered
+
+Tracing routes to CCU...
+  Attempting: 140.123.1.2
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [UNIVERSITY_INTERNAL] suncc.ccu.edu.tw (140.123.1.2)
+    ✓ Captured 6 hops (including partial trace)
+    ✓ Success: 6 hops discovered
+
+Tracing routes to NCKU...
+  Attempting: 140.116.229.1
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] ncku-a1.twaren.net (211.73.76.214)
+    🎯 [TWAREN_CORE] ncku-76-ncku.twaren.net (211.79.56.26)
+    🎯 [UNIVERSITY_INTERNAL] ncku.edu.tw (140.116.229.1)
+    ✓ Captured 9 hops (including partial trace)
+    ✓ Success: 9 hops discovered
+
+Tracing routes to NSYSU...
+  Attempting: 140.117.13.241
+  ⚠ Traceroute to 140.117.13.241 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] nsysu-a1.twaren.net (211.73.76.218)
+    🎯 [TWAREN_CORE] nsysu_nsysu-a1.twaren.net (211.79.58.26)
+    ✓ Captured 10 hops (including partial trace)
+    ✓ Success: 10 hops discovered
+
+Tracing routes to NIU...
+  Attempting: 120.101.0.3
+  ⚠ Traceroute to 120.101.0.3 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.81)
+    🎯 [TWAREN_CORE] tp-a2.twaren.net (211.73.76.66)
+    🎯 [TWAREN_CORE] niu-a1.twaren.net (211.73.76.114)
+    🎯 [TWAREN_CORE] niu_niu-a1.twaren.net (211.79.50.146)
+    ✓ Captured 10 hops (including partial trace)
+    ✓ Success: 10 hops discovered
+
+Tracing routes to NCCU...
+  Attempting: 140.119.166.199
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [UNIVERSITY_INTERNAL] nccu.edu.tw (140.119.166.199)
+    ✓ Captured 11 hops (including partial trace)
+    ✓ Success: 11 hops discovered
+
+Tracing routes to SINICA...
+  Attempting: 140.109.13.33
+  ⚠ Traceroute to 140.109.13.33 timed out, parsing partial results...
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    ✓ Captured 12 hops (including partial trace)
+    ✓ Success: 12 hops discovered
+
+Tracing routes to NCHC...
+  Attempting: 211.73.79.37
+    🎯 [UNIVERSITY_INTERNAL] csgate103.cs.ccu.edu.tw (140.123.103.250)
+    🎯 [TWAREN_CORE] ccu-ccu-76.twaren.net (211.79.57.25)
+    🎯 [TWAREN_CORE] tp-a1.twaren.net (211.73.76.209)
+    🎯 [TWAREN_CORE] tn-a2.twaren.net (211.73.76.198)
+    🎯 [TWAREN_CORE] hc-a2.twaren.net (211.73.76.141)
+    ✓ Captured 9 hops (including partial trace)
+    ✓ Success: 9 hops discovered
+
+=== Phase 3: Analysis ===
+
+Total unique IPs discovered: 74
+Potential gateways found: 26
+
+Potential Gateway Subnets:
+  140.112.0.0/24: 2 gateway(s)
+    - wan0069.cc.ntu.edu.tw (140.112.0.69)
+    - core_wan_0201.cc.ntu.edu.tw (140.112.0.201)
+  140.114.1.0/24: 1 gateway(s)
+    - c7609c-c6509.nthu.edu.tw (140.114.1.69)
+  140.116.229.0/24: 1 gateway(s)
+    - ncku.edu.tw (140.116.229.1)
+  140.119.166.0/24: 1 gateway(s)
+    - nccu.edu.tw (140.119.166.199)
+  140.123.1.0/24: 1 gateway(s)
+    - suncc.ccu.edu.tw (140.123.1.2)
+  140.123.103.0/24: 1 gateway(s)
+    - csgate103.cs.ccu.edu.tw (140.123.103.250)
+  211.73.76.0/24: 12 gateway(s)
+    - tp-a1.twaren.net (211.73.76.209)
+    - tp-a1.twaren.net (211.73.76.81)
+    - ndhu-a1.twaren.net (211.73.76.90)
+  211.79.50.0/24: 1 gateway(s)
+    - niu_niu-a1.twaren.net (211.79.50.146)
+  211.79.51.0/24: 1 gateway(s)
+    - ncu-76-ncu.twaren.net (211.79.51.26)
+  211.79.53.0/24: 1 gateway(s)
+    - nctu-76-nctu.twaren.net (211.79.53.30)
+  211.79.55.0/24: 1 gateway(s)
+    - ncnu-76-ncnu-2.twaren.net (211.79.55.38)
+  211.79.56.0/24: 1 gateway(s)
+    - ncku-76-ncku.twaren.net (211.79.56.26)
+  211.79.57.0/24: 1 gateway(s)
+    - ccu-ccu-76.twaren.net (211.79.57.25)
+  211.79.58.0/24: 1 gateway(s)
+    - nsysu_nsysu-a1.twaren.net (211.79.58.26)
+
+Traceroute Success Rate: 14/14 nodes
+
+✓ Results saved to twaren_discovery.json
+✓ Target list saved to twaren_targets.txt
+
+✓ Discovery complete!

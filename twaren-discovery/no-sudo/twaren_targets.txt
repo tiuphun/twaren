@@ -1,0 +1,33 @@
+# TWAREN Target IPs for Network Mapping
+# Generated: 2025-10-12T17:42:36.898643
+# Source: CCU
+
+120.101.5.5	# NIU - core.niu.edu.tw
+134.208.9.114	# NDHU - twaren.ndhu.edu.tw
+140.109.13.33	# SINICA - rt.sinica.edu.tw
+140.112.0.201	# NTU - core_wan_0201.cc.ntu.edu.tw
+140.112.0.69	# NTU - wan0069.cc.ntu.edu.tw
+140.114.1.69	# NTHU - c7609c-c6509.nthu.edu.tw
+140.116.229.1	# NCKU - ncku.edu.tw
+140.119.166.199	# NCCU - nccu.edu.tw
+140.123.1.2	# CCU - suncc.ccu.edu.tw
+140.123.103.250	# NTU - csgate103.cs.ccu.edu.tw
+211.73.76.114	# NIU - niu-a1.twaren.net
+211.73.76.141	# NCU - hc-a2.twaren.net
+211.73.76.150	# NCU - ncu-a1.twaren.net
+211.73.76.154	# NYCU - nctu-a1.twaren.net
+211.73.76.194	# NCNU - ncnu-a1.twaren.net
+211.73.76.198	# NCU - tn-a2.twaren.net
+211.73.76.209	# NDHU - tn-a1.twaren.net
+211.73.76.214	# NCKU - ncku-a1.twaren.net
+211.73.76.218	# NSYSU - nsysu-a1.twaren.net
+211.73.76.66	# NIU - tp-a2.twaren.net
+211.73.76.81	# NDHU - tp-a1.twaren.net
+211.73.76.90	# NDHU - ndhu-a1.twaren.net
+211.79.50.146	# NIU - niu_niu-a1.twaren.net
+211.79.51.26	# NCU - ncu-76-ncu.twaren.net
+211.79.53.30	# NYCU - nctu-76-nctu.twaren.net
+211.79.55.38	# NCNU - ncnu-76-ncnu-2.twaren.net
+211.79.56.26	# NCKU - ncku-76-ncku.twaren.net
+211.79.57.25	# NDHU - ccu-ccu-76.twaren.net
+211.79.58.26	# NSYSU - nsysu_nsysu-a1.twaren.net
