@@ -91,7 +91,9 @@ class RouteMonitor:
         timestamp = datetime.now()
         
         try:
-            cmd = ['traceroute', '-I', '-m', '25', '-w', '2', target_ip]
+            # cmd = ['traceroute', '-I', '-m', '25', '-w', '2', target_ip] 
+            # remove -I to use UDP instead of ICMP, no sudo needed
+            cmd = ['traceroute', '-m', '25', '-w', '2', target_ip]
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
             
             hops = self.parse_traceroute_output(result.stdout)

@@ -1,82 +1,83 @@
-120.101.0.3
-120.101.0.9
-120.101.0.37
-120.101.5.5
-134.208.9.114
-134.208.14.111
-134.208.14.219
-140.109.13.33
-140.112.0.69
-140.112.0.201
-140.112.2.2
-140.112.2.165
-140.112.8.116
-140.112.36.185
-140.113.0.45
-140.113.39.18
-140.113.41.157
-140.113.250.136
-140.114.1.69
-140.114.63.20
-140.114.63.93
-140.114.67.68
-140.114.69.134
-140.115.1.29
-140.115.17.111
-140.115.17.128
-140.115.130.211
-140.115.154.112
-140.116.49.101
-140.116.229.1
-140.116.241.66
-140.116.249.68
-140.117.11.26
-140.117.11.50
-140.117.111.1
-140.117.166.10
-140.119.34.23
-140.119.34.235
-140.119.166.199
-140.119.168.10
-140.119.216.47
-140.119.226.191
-140.120.1.2
-140.120.1.20
-140.120.1.21
-140.120.3.160
-140.120.152.8
-140.120.152.9
-140.123.1.2
-140.123.2.25
-140.123.13.215
-140.123.103.250
-140.123.135.249
-140.123.254.17
-142.251.170.26
-163.22.2.2
-163.22.2.38
-163.22.16.130
-163.28.112.1
-163.28.113.1
-172.217.78.26
-203.145.203.101
-211.73.76.66
-211.73.76.81
-211.73.76.90
-211.73.76.114
-211.73.76.141
-211.73.76.150
-211.73.76.154
-211.73.76.194
-211.73.76.198
-211.73.76.209
-211.73.76.214
-211.73.76.218
-211.79.50.146
-211.79.51.26
-211.79.53.30
-211.79.55.38
-211.79.56.26
-211.79.57.25
-211.79.58.26
-211.79.61.47
+================================================================================
+120.101.0.3     # imap.niu.edu.tw | mail.niu.edu.tw
+120.101.0.9     # ns1.niu.edu.tw
+120.101.0.37    # lib.niu.edu.tw
+120.101.5.5     # NIU - core.niu.edu.tw
+134.208.9.114   # NDHU - twaren.ndhu.edu.tw
+134.208.14.111  # webmail.ndhu.edu.tw
+134.208.14.219  # www.ndhu.edu.tw | ee.ndhu.edu.tw
+140.109.13.33   # SINICA - rt.sinica.edu.tw
+140.112.0.69    # NTU - wan0069.cc.ntu.edu.tw
+140.112.0.201   # NTU - core_wan_0201.cc.ntu.edu.tw
+140.112.2.2     # ntu3.ntu.edu.tw
+140.112.2.165   # webmail.ntu.edu.tw
+140.112.8.116   # www.ntu.edu.tw
+140.112.36.185  # ftp.ntu.edu.tw
+140.113.0.45    # vpn.nycu.edu.tw
+140.113.39.18   # lib.nycu.edu.tw
+140.113.41.157  # portal.nycu.edu.tw
+140.113.250.136 # ns2.nycu.edu.tw
+140.114.1.69    # NTHU - c7609c-c6509.nthu.edu.tw
+140.114.63.20   # dns3.nthu.edu.tw
+140.114.63.93   # antispam.net.nthu.edu.tw
+140.114.67.68   # ee.nthu.edu.tw
+140.114.69.134  # moodle.nthu.edu.tw
+140.115.1.29    # dns.ncu.edu.tw
+140.115.17.111  # pop.ncu.edu.tw
+140.115.17.128  # smtp.ncu.edu.tw
+140.115.130.211 # lib.ncu.edu.tw
+140.115.154.112 # ee.ncu.edu.tw
+140.116.49.101  # ee.ncku.edu.tw
+140.116.229.1   # NCKU - ncku.edu.tw
+140.116.241.66  # lib.ncku.edu.tw
+140.116.249.68  # moodle.ncku.edu.tw
+140.117.11.26   # elearn.nsysu.edu.tw
+140.117.11.50   # mail.nsysu.edu.tw
+140.117.111.1   # vpn.nsysu.edu.tw
+140.117.166.10  # ee.nsysu.edu.tw
+140.119.34.23   # moodle.nccu.edu.tw
+140.119.34.235  # elearn.nccu.edu.tw
+140.119.166.199 # NCCU - nccu.edu.tw | nccu.edu.tw
+140.119.168.10  # www.nccu.edu.tw
+140.119.216.47  # ftp.nccu.edu.tw
+140.119.226.191 # vpn.nccu.edu.tw
+140.120.1.2     # nchud1.nchu.edu.tw
+140.120.1.20    # www.nchu.edu.tw
+140.120.1.21    # pds.nchu.edu.tw
+140.120.3.160   # portal.nchu.edu.tw
+140.120.152.8   # sqr.nchu.edu.tw
+140.120.152.9   # sqr2.nchu.edu.tw
+140.123.1.2     # CCU - suncc.ccu.edu.tw
+140.123.2.25    # webmail.ccu.edu.tw
+140.123.13.215  # ee.ccu.edu.tw | lib.ccu.edu.tw
+140.123.103.250 # NTU - csgate103.cs.ccu.edu.tw
+140.123.135.249 # vpn.ccu.edu.tw
+140.123.254.17  # dns2.ccu.edu.tw
+142.251.170.26  # ASPMX.L.GOOGLE.COM
+163.22.2.2      # taurus.ncnu.edu.tw
+163.22.2.38     # webmail.ncnu.edu.tw | pop.ncnu.edu.tw | imap.ncnu.edu.tw
+163.22.16.130   # moodle.ncnu.edu.tw
+163.28.112.1    # name.ncku.edu.tw
+163.28.113.1    # apple.ncku.edu.tw
+172.217.78.26   # ALT1.ASPMX.L.GOOGLE.COM
+203.145.203.101 # cs.niu.edu.tw
+211.73.76.66    # NIU - tp-a2.twaren.net
+211.73.76.81    # NDHU - tp-a1.twaren.net
+211.73.76.90    # NDHU - ndhu-a1.twaren.net
+211.73.76.114   # NIU - niu-a1.twaren.net
+211.73.76.141   # NCU - hc-a2.twaren.net
+211.73.76.150   # NCU - ncu-a1.twaren.net
+211.73.76.154   # NYCU - nctu-a1.twaren.net
+211.73.76.194   # NCNU - ncnu-a1.twaren.net
+211.73.76.198   # NCU - tn-a2.twaren.net
+211.73.76.209   # NDHU - tp-a1.twaren.net | NCKU - tp-a1.twaren.net | NDHU - tn-a1.twaren.net
+211.73.76.214   # NCKU - ncku-a1.twaren.net
+211.73.76.218   # NSYSU - nsysu-a1.twaren.net
+211.79.50.146   # NIU - niu_niu-a1.twaren.net
+211.79.51.26    # NCU - ncu-76-ncu.twaren.net
+211.79.53.30    # NYCU - nctu-76-nctu.twaren.net
+211.79.55.38    # NCNU - ncnu-76-ncnu-2.twaren.net
+211.79.56.26    # NCKU - ncku-76-ncku.twaren.net
+211.79.57.25    # NDHU - ccu-ccu-76.twaren.net | NCKU - ccu-ccu-76.twaren.net
+211.79.58.26    # NSYSU - nsysu_nsysu-a1.twaren.net
+211.79.61.47    # dns3.twaren.net
